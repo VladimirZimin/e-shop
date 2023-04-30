@@ -1,0 +1,31 @@
+.cartButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  margin: 20px;
+  background-color: #0c142d;
+  border: 3px solid #fa761e;
+  border-radius: 50%;
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+  color: #05d69e;
+  outline: none;
+}
+
+.cartButton:hover {
+  background-color: #1c2540;
+}
+
+.cartButtonIsOpen {
+  width: 40px;
+  height: 40px;
+  fill: #ef486f;
+}
+
+.cartButtonIsClose {
+  width: 40px;
+  height: 40px;
+  fill: #ffd166;
+}
